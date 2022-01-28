@@ -28,8 +28,4 @@ public class PessoaFisica extends Pessoa{
         }
         return imposto - desconto;
     }
-    @Override
-    public String toString(){
-        return String.format("%s: $ %.2f",getName(), imposto());
-    }
 }

@@ -24,7 +24,7 @@ public  abstract class Pessoa {
 
     @Override
     public String toString(){
-        return String.format("Pessoa: %s $ %.2f", name, rendaAnual);
+        return String.format("%s: $ %.2f", name, imposto());
     }
 
     public abstract Double imposto();
